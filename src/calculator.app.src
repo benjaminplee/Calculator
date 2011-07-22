@@ -1,0 +1,12 @@
+{application, calculator,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { calculator_app, []}},
+  {env, []}
+ ]}.
