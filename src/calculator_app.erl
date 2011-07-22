@@ -5,6 +5,9 @@
 %% Application callbacks
 -export([start/2, stop/1]).
 
+%% API
+-export([add/1]).
+
 %% ===================================================================
 %% Application callbacks
 %% ===================================================================
@@ -14,3 +17,6 @@ start(_StartType, _StartArgs) ->
 
 stop(_State) ->
     ok.
+
+add([First, Second]) ->
+  First + Second.
