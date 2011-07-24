@@ -18,5 +18,7 @@ start(_StartType, _StartArgs) ->
 stop(_State) ->
     ok.
 
-add([First, Second]) ->
-  First + Second.
+add([]) ->
+  0;
+add([Head | Tail]) ->
+  Head + add(Tail).
