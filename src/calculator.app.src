@@ -1,6 +1,6 @@
 {application, calculator,
  [
-  {description, ""},
+  {description, "Simple calculator app used for learning Erlang"},
   {vsn, "1"},
   {registered, []},
   {applications, [
